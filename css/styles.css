@@ -179,7 +179,7 @@
 
     /* others
      */
-    --color-body    : var(--color-gray-10);
+    --color-body    : var(--color-gray-15);
     --color-border  : rgba(255, 255, 255, .05);
     --border-radius : 3px;
 }
@@ -413,6 +413,7 @@ button,
 [type="reset"],
 [type="submit"] {
     -webkit-appearance : button;
+    appearance: none;
 }
 
 button::-moz-focus-inner,
@@ -464,6 +465,7 @@ textarea {
 
 [type="search"] {
     -webkit-appearance : textfield;
+    appearance: textfield;
     outline-offset     : -2px;
 }
 
